@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjectionFixed" Version="5.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Blocks\CogentCode.Template.Blocks.Common.Exceptions\CogentCode.Template.Blocks.Common.Exceptions.csproj" />
+    <ProjectReference Include="..\..\Blocks\CogentCode.Template.Blocks.Common.Kernel\CogentCode.Template.Blocks.Common.Kernel.csproj" />
+    <ProjectReference Include="..\CogentCode.Template.Application.Contracts\CogentCode.Template.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
